@@ -1,0 +1,20 @@
+{
+  "name": "docs",
+  "type": "module",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "astro dev",
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "uncache": "rm -rf .turbo",
+    "clean": "rm -rf .turbo && rm -rf node_modules",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/tailwind": "^3.0.1",
+    "astro": "^2.0.14",
+    "tailwindcss": "^3.0.24"
+  }
+}
